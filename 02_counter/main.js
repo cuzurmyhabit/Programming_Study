@@ -1,3 +1,5 @@
+let count = 0;
+
 // const h1 = document.querySelector('h1');
 // const button = document.querySelector('button');
 
@@ -57,11 +59,42 @@
 
 // =======================================================================================
 
-let count = 0;
-const resultH1 = document.getElementById("result");
+// let count = 0;
+// const resultH1 = document.getElementById("result");
 
-function plus(){
-    count++;
+// function plus(){
+//     count++;
+
+//     resultH1.innerHTML = count;
+// }       
+
+// ========================================================================================
+
+// let count = 0;
+// const resultH1 = document.getElementById("result");
+
+// function plus(){
+//     count += 1;
+
+//     resultH1.innerHTML = count;
+// }       
+
+// function plus2(){
+//     count += 2;
+
+//     resultH1.innerHTML = count;
+// }       
+
+// function minus(){
+//     count -= 2;
+//     resultH1.innerHTML = count;
+// }
+
+//==============================================================================================
+
+
+function plus(number = 1){
+    count += number;
 
     resultH1.innerHTML = count;
-}       
+}

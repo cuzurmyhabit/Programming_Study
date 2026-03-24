@@ -43,14 +43,25 @@
 
 //======================================================================================
 
+// let count = 0;
+
+// const resultH1 = document.getElementById("result");
+// // const resultH1 = document.querySelector("#result");
+// const plusButton = document.getElementsById('plusBtn')[0];
+
+// plusButton.onclick = () => {
+//     count++;
+
+//     resultH1.innerHTML = count;
+// };
+
+// =======================================================================================
+
 let count = 0;
-
 const resultH1 = document.getElementById("result");
-// const resultH1 = document.querySelector("#result");
-const plusButton = document.getElementsById('plusBtn')[0];
 
-plusButton.onclick = () => {
+function plus(){
     count++;
 
     resultH1.innerHTML = count;
-};
+}       

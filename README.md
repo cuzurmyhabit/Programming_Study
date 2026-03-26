@@ -1,3 +1,8 @@
 # Programming 수업 소스 코드 🤯
 ## 02. Counter
 vanilla HTML, JavaScript
+
+## React 시작
+```shell
+npm create vite@latest .
+```

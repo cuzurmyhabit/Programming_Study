@@ -1,4 +1,4 @@
-let count = 0;
+let count = 100;
 
 // const h1 = document.querySelector('h1');
 // const button = document.querySelector('button');
@@ -92,7 +92,9 @@ let count = 0;
 
 //==============================================================================================
 
+const resultH1 = document.getElementById("result");
 
+resultH1.innerHTML = count;
 function plus(number = 1){
     count += number;
 

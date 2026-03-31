@@ -2,7 +2,8 @@
 ## 02. Counter
 vanilla HTML, JavaScript
 
-## React 시작
+## React 시작 🫨
 ```shell
 npm create vite@latest .
 ```
+### CounterApp 시작 🥱

@@ -6,4 +6,7 @@ vanilla HTML, JavaScript
 ```shell
 npm create vite@latest .
 ```
-### CounterApp 시작 🥱
+### CounterApp 🥱
+- useState()
+- onClick{( set함수 (state변수) => state변수 +1)}
+- onClick[변수 이름]

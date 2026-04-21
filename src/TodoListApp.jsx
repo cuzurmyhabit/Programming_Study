@@ -26,12 +26,22 @@ function TodoListApp() {
             )
         ]);
     }
+
+    function toggleTodo(id){
+        setTodos((todos) =>
+            // todos에서 하나씩 꺼내서 todo, 꺼낸 todo의 id와 id가 같다면
+            // 새 객체 만들어서 todo 값 복사, 속성 수정
+            todos.map((todo) =>
+            todo.id === id ? {...todo, isCompleted: !todo.isCompleted} : todo
+            )
+        )
+    }
     return (
         <div className="todo">
             <TodoHeader />
             <TodoAdder addTodo={addTodo} />
             {/* <TodoList /> */}
-            <TodoList todos={todos} />
+            <TodoList todos={todos} toggleTodo={toggleTodo} />
         </div>
     );
 }

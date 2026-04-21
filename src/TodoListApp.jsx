@@ -30,7 +30,8 @@ function TodoListApp() {
         <div className="todo">
             <TodoHeader />
             <TodoAdder addTodo={addTodo} />
-            <TodoList />
+            {/* <TodoList /> */}
+            <TodoList todos={todos} />
         </div>
     );
 }

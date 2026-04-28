@@ -4,7 +4,7 @@ import TodoItem from "./TodoItem";
 export default function TodoList({ todos, ...rest }) {
     return (
         //todo.isCompleted이 true면 todo__item--complete, false ""
-        <ul className={`todo__item ${todos.some(t => t.isCompleted) ? 'todo__item--complete' : ""}`}>
+        <ul className="todo__list">
             {/* todos가 없으면 todoItemEmpty */}
             {todos.length === 0 && <TodoItemEmpty />}
             {/* todos가 있으면 todoItem에 todos 던지기 */}
